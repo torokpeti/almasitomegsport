@@ -1,0 +1,190 @@
+html{
+    background-image: url(hatter.jpg);
+    background-size: 700px;
+
+}
+
+/*Menü kezdete*/
+#menugomb{
+    margin-left: 20px;
+}
+
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+  }
+  
+  .menu a {
+    margin-top: -2px;
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #f1f1f1;
+  }
+  
+  .menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .menu {padding-top: 15px;}
+    .menu a {font-size: 18px;}
+  }
+/*Menü vége*/
+
+/*tartalom*/
+.tartalom{
+    margin-top: -1.6cm;
+}
+.contener{
+    background-color: rgb(230, 230, 230, 70%);
+    width: 100%;
+}
+.cim{
+    text-align: center;
+}
+
+.esemenyimg{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alcim1{
+    text-align: center;
+    font-size: 25px;
+}
+
+#menuimg{
+    width: 100px;
+}
+
+#menuimg1{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    html{
+        background-size: 700px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .tartalom{
+        width: auto;
+        height: auto;
+    }
+
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .esemenyimg{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*Menu*/
+
+.elerhetoseg{
+    text-align: center;
+}
+
+.elerhetoseg a:link{
+    color: #111;
+}
+#el{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.urlap{
+    text-align: center;
+}
+
+input{
+    margin-bottom: 0.15cm;
+    background-color: rgb(190, 190, 190);
+}
+
+#gomb{
+    font-size: 17px;
+}
+
+#aszftartalom{
+    text-align: center;
+}
+
+.jelentkezeslink{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+/*Input*/
+
+.bevitel {
+    border: none;
+    padding: 8px;
+    border-radius: 0.9rem;
+}
+
+
+/*Hidden*/
+
+.hiddentartalom{
+    visibility: hidden;
+}
+
+
+#ac{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.tagok{
+    text-align: center;
+}
+
+.tagok p{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#uzenet{
+    height: 75px
+}
